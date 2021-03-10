@@ -1,0 +1,29 @@
+:root {
+  // Primary Colors
+  // Very Dark Magenta
+  --clr-primary-700: hsl(300, 43%, 22%);
+
+  // Soft Pink
+  --clr-primary-300: hsl(333, 80%, 67%);
+
+  // Neutral Colors
+  // Dark Grayish Magenta
+  --clr-neutral-100: hsl(303, 10%, 53%);
+
+  // Light Grayish Magenta
+  --clr-neutral-200: hsl(300, 24%, 96%);
+
+  // White
+  --clr-neutral-300: hsl(0, 0%, 100%);
+
+  // Font Family
+  --ff-primary: "spartan", sans-serif;
+
+  --fs-400: 0.8125rem;
+  --fs-500: 0.9625rem;
+  --fs-900: 2rem;
+
+  @media (min-width: 50rem) {
+    --fs-900: 3rem;
+  }
+}
