@@ -25,7 +25,9 @@
   img {
     width: 4rem;
     border-radius: 50%;
-    margin-right: 2rem;
+    @media (min-width: 50em) {
+      margin-right: 2rem;
+    }
   }
 
   .quote {
